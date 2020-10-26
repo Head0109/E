@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+<meta charset="UTF-8">
+<H1>form01</H1>
+<form action="https://www.pinkoi.com/browse" method="GET">
+<input type="text"name="category">
+<input type="submit"value="git方法的表單">
+</form>
 
-You can use the [editor on GitHub](https://github.com/Head0109/E/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<H1>form02</H1>
+<form action="https://www.pinkoi.com/browse" method="get">
+<select name="category">
+<option value="0">衣著良品</option>
+<option value="1">包包提袋</option>
+<option value="=2">配件飾品</option>
+<option value="=3">文具卡片</option>
+<option value="4">媽咪寶寶</option>
+<option value="5">居家生活</option>
+</select>
+<input type="submit"value="下拉搜尋">
+</form>
 
-### Markdown
+<br>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<H1>form03</H1>
+<form action="https://www.pinkoi.com/search"
+method="get">
+<input type="text"name="key">
+<input type="hidden"name="q"value="服飾">
+<input type="submit"value="衣著良品">
+</form>
 
-```markdown
-Syntax highlighted code block
+<br>
+<H1>form04</H1>
 
-# Header 1
-## Header 2
-### Header 3
+<form action=""
+method="get">
+<input type="text"name="username"placeholder="請輸入姓名"required 
+autofocus></p>
+<input type="tel" name="tel"placeholder="請輸入手機"></p>
+<input type="url" placeholder="http://it-life-wyx.blogspot.tw/"></p>
 
-- Bulleted
-- List
+<H1></form></H1>
 
-1. Numbered
-2. List
+<br>
+form05
 
-**Bold** and _Italic_ and `Code` text
+<form action=""
+method="get">
+<input type="date"name="date"</p>
+<input type="url"name="url"></p>
+<input type="color"name="color"></p>
+<br>
+<br>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Head0109/E/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
